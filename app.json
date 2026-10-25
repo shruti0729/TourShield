@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "tourshield-mobile",
@@ -6,6 +7,14 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "TourShield uses your location to help you access location-based safety features."
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
